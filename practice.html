@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="title"> Quiz</h1>
+    <div id="container">
+        <h1>1. what is the first step in making an array in javascript?</h1>
+        <form class="form">
+            <input type="radio" name="question1" id="Q1" value="array1">
+            <label style="color: red;" for="question1">const cars = ["Saab", "Volvo", "BMW"];
+            </label><br><br>
+
+            <input type="radio" name="question1" id="Q1" value="array2">
+            <label style="color: green;" for="question1">const numbers = [45, 4, 9, 16, 25];<br>
+                let txt = "";<br>
+                numbers.forEach(myFunction);<br>
+
+                function myFunction(value, index, array) {<br>
+                txt += value + "<br>";
+                }</label><br><br>
+            <input type="radio" name="question1" id="Q1" value="array3">
+            <label style="color: blue;" for="question1">
+                newArray = Arr[1,2,3,4,5];
+            </label><br><br>
+
+            <input type="radio" name="question1" id="Q1" value="array4">
+            <label style="color: orange;" for="question1">
+                arr = array.getElementById("array").value = [1,2,3,4];
+            </label><br><br>
+<br><br>
+        </form>
+        <h1>2. what is the method used to print a function in javascript?</h1>
+
+        <form class="form">
+            <input type="radio" name="question2" id="Q2" value="arr1">
+            <label style="color: green;" for="question2">System.out.println("name of function");</label><br><br>
+
+            <input type="radio" name="question2" id="Q2" value="arr2">
+            <label style="color: red;" for="question2">displayFunction("name of function");</label><br><br>
+
+            <input type="radio" name="question2" id="Q2" value="arr3">
+            <label style="color: purple;" for="question2">console.log("name of function");</label><br><br>
+
+            <input type="radio" name="question2" id="Q2" value="arr4">
+            <label style="color: orange;" for="question2">getElementById("name of function").innerHTML =
+                displayFunction;</label><br><br><br><br>
+
+
+
+
+        </form>
+        <h1>3. what is Daniel Josephs favorite number ?</h1>
+        <form class="form">
+            <input type="radio" name="question1" id="Q1" value="one">
+            <label for="question1">
+                1
+            </label><br><br>
+
+            <input type="radio" name="question1" id="Q1" value="nine">
+            <label for="question1">
+                9
+            </label><br><br>
+            <input type="radio" name="question1" id="Q1" value="four">
+            <label for="question1">
+                4
+            </label><br><br>
+
+            <input type="radio" name="question1" id="Q1" value="seven">
+            <label for="question1">
+                7
+            </label><br><br><br><br>
+
+        </form>
+        <button id="submit" onclick="Check()">submit</button>
+        <button type="button" id="retry" onClick="window.location.reload();">retry</button>
+
+        <div id="asnwer"></div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

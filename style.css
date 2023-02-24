@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+#asnwer{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#title{
+    margin-left: 20rem;
+    font-size: 70px;
+}
+
+body {
+list-style: none;
+}
+
+#container{
+    margin-left: 20rem;
+    width: 40rem;
+    height: auto;
+    border: dashed 10px black;
+}
+
+#submit{
+    width: 100px;
+    background: white;
+}
+#retry{
+    margin-left: 20rem;
+    background: white;
+    width: 100px;
+}
+
+.form{
+    font-size: 20px;
+    text-align:left;
+    border: solid 2px black;
+font-weight:bold;
+}
